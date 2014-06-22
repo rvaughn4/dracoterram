@@ -32,6 +32,32 @@
 			<Add option="-Wall" />
 			<Add option="-fexceptions" />
 		</Compiler>
+		<Unit filename="dracoterram/dracoterram.cpp" />
+		<Unit filename="dracoterram/dracoterram.h" />
+		<Unit filename="dracoterram/network/client.cpp" />
+		<Unit filename="dracoterram/network/client.h" />
+		<Unit filename="dracoterram/network/network.cpp" />
+		<Unit filename="dracoterram/network/network.h" />
+		<Unit filename="dracoterram/network/packet/message.cpp" />
+		<Unit filename="dracoterram/network/packet/message.h" />
+		<Unit filename="dracoterram/network/packet/message_procesor.h" />
+		<Unit filename="dracoterram/network/packet/message_processor.cpp" />
+		<Unit filename="dracoterram/network/packet/message_processor_factory.cpp" />
+		<Unit filename="dracoterram/network/packet/message_processor_factory.h" />
+		<Unit filename="dracoterram/network/packet/messages.cpp" />
+		<Unit filename="dracoterram/network/packet/messages.h" />
+		<Unit filename="dracoterram/network/packet/packet.cpp" />
+		<Unit filename="dracoterram/network/packet/packet.h" />
+		<Unit filename="dracoterram/network/record.cpp" />
+		<Unit filename="dracoterram/network/record.h" />
+		<Unit filename="dracoterram/network/record_list.cpp" />
+		<Unit filename="dracoterram/network/record_list.h" />
+		<Unit filename="dracoterram/network/records.cpp" />
+		<Unit filename="dracoterram/network/records.h" />
+		<Unit filename="dracoterram/network/server.cpp" />
+		<Unit filename="dracoterram/network/server.h" />
+		<Unit filename="dracoterram/network/session.cpp" />
+		<Unit filename="dracoterram/network/session.h" />
 		<Unit filename="main.cpp" />
 		<Extensions>
 			<code_completion />

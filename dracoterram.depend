@@ -1,0 +1,57 @@
+# depslib dependency file v1.0
+1403464651 source:/home/richard/codeblocks_projects/dt/dracoterram/dracoterram/dracoterram.cpp
+
+1403480100 source:/home/richard/codeblocks_projects/dt/dracoterram/dracoterram/network/client.cpp
+	"../dracoterram.h"
+
+1403464670 source:/home/richard/codeblocks_projects/dt/dracoterram/dracoterram/network/network.cpp
+
+1403465095 source:/home/richard/codeblocks_projects/dt/dracoterram/dracoterram/network/packet/message.cpp
+
+1403465181 source:/home/richard/codeblocks_projects/dt/dracoterram/dracoterram/network/packet/message_processor.cpp
+
+1403465200 source:/home/richard/codeblocks_projects/dt/dracoterram/dracoterram/network/packet/message_processor_factory.cpp
+
+1403465211 source:/home/richard/codeblocks_projects/dt/dracoterram/dracoterram/network/packet/messages.cpp
+
+1403465139 source:/home/richard/codeblocks_projects/dt/dracoterram/dracoterram/network/packet/packet.cpp
+
+1403464687 source:/home/richard/codeblocks_projects/dt/dracoterram/dracoterram/network/record.cpp
+
+1403464852 source:/home/richard/codeblocks_projects/dt/dracoterram/dracoterram/network/record_list.cpp
+
+1403464861 source:/home/richard/codeblocks_projects/dt/dracoterram/dracoterram/network/records.cpp
+
+1403480004 source:/home/richard/codeblocks_projects/dt/dracoterram/dracoterram/network/server.cpp
+	"../dracoterram.h"
+
+1403464803 source:/home/richard/codeblocks_projects/dt/dracoterram/dracoterram/network/session.cpp
+
+1403479583 source:/home/richard/codeblocks_projects/dt/dracoterram/main.cpp
+	<iostream>
+	"dracoterram/dracoterram.h"
+
+1403474796 /home/richard/codeblocks_projects/dt/dracoterram/dracoterram/dracoterram.h
+	<vector>
+	"network/network.h"
+
+1403479521 /home/richard/codeblocks_projects/dt/dracoterram/dracoterram/network/network.h
+	"../dracoterram.h"
+	<arpa/inet.h>
+	<netinet/in.h>
+	<stdio.h>
+	<sys/types.h>
+	<sys/socket.h>
+	<unistd.h>
+	<string.h>
+	<iostream>
+	<time.h>
+	"server.h"
+	"client.h"
+
+1403477176 /home/richard/codeblocks_projects/dt/dracoterram/dracoterram/network/server.h
+	"../dracoterram.h"
+
+1403478891 /home/richard/codeblocks_projects/dt/dracoterram/dracoterram/network/client.h
+	"../dracoterram.h"
+

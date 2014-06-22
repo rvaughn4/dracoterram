@@ -1,6 +1,9 @@
 
+
 #ifndef dracoterram_h
 #define dracoterram_h
+
+#include <vector>
 
 namespace dracoterram
 {
