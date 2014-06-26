@@ -13,6 +13,7 @@
 #include <string.h>
 #include <iostream>
 #include <time.h>
+#include <errno.h>
 
 namespace dracoterram
 {
@@ -20,6 +21,8 @@ namespace dracoterram
 
 };
 
+#include "dgram.h"
+#include "session.h"
 #include "server.h"
 #include "client.h"
 

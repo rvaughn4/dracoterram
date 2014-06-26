@@ -28,7 +28,7 @@ namespace dracoterram
 
                 if( this->s4 > 0 )
                 {
-                    r = bind( this->s4, (sockaddr *)&a4, sizeof( s4 ) );
+                    r = bind( this->s4, (sockaddr *)&a4, sizeof( a4 ) );
                     if( 0 )//r < 0 )
                     {
                         close( this->s4 );
@@ -46,7 +46,7 @@ namespace dracoterram
                 }
                 if( this->s6 > 0 )
                 {
-                    if( bind( this->s6, (sockaddr *)&a6, sizeof( s6 ) ) < 0 )
+                    if( bind( this->s6, (sockaddr *)&a6, sizeof( a6 ) ) < 0 )
                     {
                         close( this->s6 );
                         this->s6 = 0;

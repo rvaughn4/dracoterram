@@ -18,7 +18,7 @@ namespace dracoterram
                 memset( &a4, 0, sizeof( a4 ) );
                 a4.sin_family = AF_INET;
                 a4.sin_port = htons( 9000 );
-                a4.sin_addr.s_addr = htonl( INADDR_ANY );
+                a4.sin_addr.s_addr = INADDR_ANY;
 
                 memset( &a6, 0, sizeof( a6 ) );
                 a6.sin6_family = AF_INET6;
@@ -27,17 +27,20 @@ namespace dracoterram
 
                 if( this->s4 > 0 )
                 {
-                    r = bind( this->s4, (sockaddr *)&a4, sizeof( s4 ) );
+                    r = bind( this->s4, (sockaddr *)&a4, sizeof( a4 ) );
                     if( r < 0 )
                     {
+                        server::printError();
+
 //                        close( this->s4 );
   //                      this->s4 = 0;
                     }
                 }
                 if( this->s6 > 0 )
                 {
-                    if( bind( this->s6, (sockaddr *)&a6, sizeof( s6 ) ) < 0 )
+                    if( bind( this->s6, (sockaddr *)&a6, sizeof( a6 ) ) < 0 )
                     {
+                        server::printError();
                         close( this->s6 );
                         this->s6 = 0;
                     }
@@ -77,6 +80,8 @@ namespace dracoterram
                     return;
 
                 r = select( r + 1, &f, 0, 0, &t );
+                if( r < 0 )
+                    server::printError();
                 if( r < 1 )
                     return;
 
@@ -121,6 +126,13 @@ namespace dracoterram
             void server::runSessions( void )
             {
 
+            }
+
+        //print error
+            void server::printError( void )
+            {
+                int er = errno;
+                std::cerr << "\r\n" << strerror( er ) << "\r\n";
             }
 
 

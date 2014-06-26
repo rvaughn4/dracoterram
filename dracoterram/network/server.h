@@ -36,6 +36,8 @@ namespace dracoterram
             ~server( void );
         //run server
             virtual void run( void );
+        //print error
+            static void printError( void );
 
     };
 

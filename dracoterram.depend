@@ -1,7 +1,7 @@
 # depslib dependency file v1.0
 1403464651 source:/home/richard/codeblocks_projects/dt/dracoterram/dracoterram/dracoterram.cpp
 
-1403480100 source:/home/richard/codeblocks_projects/dt/dracoterram/dracoterram/network/client.cpp
+1403782806 source:/home/richard/codeblocks_projects/dt/dracoterram/dracoterram/network/client.cpp
 	"../dracoterram.h"
 
 1403464670 source:/home/richard/codeblocks_projects/dt/dracoterram/dracoterram/network/network.cpp
@@ -22,10 +22,11 @@
 
 1403464861 source:/home/richard/codeblocks_projects/dt/dracoterram/dracoterram/network/records.cpp
 
-1403480004 source:/home/richard/codeblocks_projects/dt/dracoterram/dracoterram/network/server.cpp
+1403782790 source:/home/richard/codeblocks_projects/dt/dracoterram/dracoterram/network/server.cpp
 	"../dracoterram.h"
 
-1403464803 source:/home/richard/codeblocks_projects/dt/dracoterram/dracoterram/network/session.cpp
+1403815792 source:/home/richard/codeblocks_projects/dt/dracoterram/dracoterram/network/session.cpp
+	"../dracoterram.h"
 
 1403479583 source:/home/richard/codeblocks_projects/dt/dracoterram/main.cpp
 	<iostream>
@@ -35,7 +36,7 @@
 	<vector>
 	"network/network.h"
 
-1403479521 /home/richard/codeblocks_projects/dt/dracoterram/dracoterram/network/network.h
+1403817950 /home/richard/codeblocks_projects/dt/dracoterram/dracoterram/network/network.h
 	"../dracoterram.h"
 	<arpa/inet.h>
 	<netinet/in.h>
@@ -46,12 +47,21 @@
 	<string.h>
 	<iostream>
 	<time.h>
+	<errno.h>
+	"dgram.h"
+	"session.h"
 	"server.h"
 	"client.h"
 
-1403477176 /home/richard/codeblocks_projects/dt/dracoterram/dracoterram/network/server.h
+1403781861 /home/richard/codeblocks_projects/dt/dracoterram/dracoterram/network/server.h
 	"../dracoterram.h"
 
 1403478891 /home/richard/codeblocks_projects/dt/dracoterram/dracoterram/network/client.h
+	"../dracoterram.h"
+
+1403815474 /home/richard/codeblocks_projects/dt/dracoterram/dracoterram/network/session.h
+	"../dracoterram.h"
+
+1403817907 /home/richard/codeblocks_projects/dt/dracoterram/dracoterram/network/dgram.h
 	"../dracoterram.h"
 
