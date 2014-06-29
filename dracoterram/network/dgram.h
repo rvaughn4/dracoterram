@@ -9,6 +9,8 @@
     {
         uint32_t s_id;
         uint8_t s_idkey;
+        uint16_t p_id;
+        uint16_t m_id;
     };
     #pragma pack()
 

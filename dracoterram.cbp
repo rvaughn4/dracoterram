@@ -36,6 +36,7 @@
 		<Unit filename="dracoterram/dracoterram.h" />
 		<Unit filename="dracoterram/network/client.cpp" />
 		<Unit filename="dracoterram/network/client.h" />
+		<Unit filename="dracoterram/network/dgram.h" />
 		<Unit filename="dracoterram/network/network.cpp" />
 		<Unit filename="dracoterram/network/network.h" />
 		<Unit filename="dracoterram/network/packet/message.cpp" />

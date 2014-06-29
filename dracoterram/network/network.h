@@ -22,6 +22,7 @@ namespace dracoterram
 };
 
 #include "dgram.h"
+#include "packet/packet.h"
 #include "session.h"
 #include "server.h"
 #include "client.h"

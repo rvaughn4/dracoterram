@@ -1,7 +1,7 @@
 # depslib dependency file v1.0
 1403464651 source:/home/richard/codeblocks_projects/dt/dracoterram/dracoterram/dracoterram.cpp
 
-1403782806 source:/home/richard/codeblocks_projects/dt/dracoterram/dracoterram/network/client.cpp
+1403955417 source:/home/richard/codeblocks_projects/dt/dracoterram/dracoterram/network/client.cpp
 	"../dracoterram.h"
 
 1403464670 source:/home/richard/codeblocks_projects/dt/dracoterram/dracoterram/network/network.cpp
@@ -14,7 +14,8 @@
 
 1403465211 source:/home/richard/codeblocks_projects/dt/dracoterram/dracoterram/network/packet/messages.cpp
 
-1403465139 source:/home/richard/codeblocks_projects/dt/dracoterram/dracoterram/network/packet/packet.cpp
+1403960976 source:/home/richard/codeblocks_projects/dt/dracoterram/dracoterram/network/packet/packet.cpp
+	"../../dracoterram.h"
 
 1403464687 source:/home/richard/codeblocks_projects/dt/dracoterram/dracoterram/network/record.cpp
 
@@ -36,7 +37,7 @@
 	<vector>
 	"network/network.h"
 
-1403817950 /home/richard/codeblocks_projects/dt/dracoterram/dracoterram/network/network.h
+1403961000 /home/richard/codeblocks_projects/dt/dracoterram/dracoterram/network/network.h
 	"../dracoterram.h"
 	<arpa/inet.h>
 	<netinet/in.h>
@@ -49,6 +50,7 @@
 	<time.h>
 	<errno.h>
 	"dgram.h"
+	"packet/packet.h"
 	"session.h"
 	"server.h"
 	"client.h"
@@ -56,12 +58,15 @@
 1403781861 /home/richard/codeblocks_projects/dt/dracoterram/dracoterram/network/server.h
 	"../dracoterram.h"
 
-1403478891 /home/richard/codeblocks_projects/dt/dracoterram/dracoterram/network/client.h
+1403955229 /home/richard/codeblocks_projects/dt/dracoterram/dracoterram/network/client.h
 	"../dracoterram.h"
 
 1403815474 /home/richard/codeblocks_projects/dt/dracoterram/dracoterram/network/session.h
 	"../dracoterram.h"
 
-1403817907 /home/richard/codeblocks_projects/dt/dracoterram/dracoterram/network/dgram.h
+1403955675 /home/richard/codeblocks_projects/dt/dracoterram/dracoterram/network/dgram.h
 	"../dracoterram.h"
+
+1403961016 /home/richard/codeblocks_projects/dt/dracoterram/dracoterram/network/packet/packet.h
+	"../../dracoterram.h"
 

@@ -13,6 +13,8 @@ namespace dracoterram
                 char buff[ 1024 ];
                 int r;
 
+                this->id = 0;
+
                 this->s4 = socket( AF_INET, SOCK_DGRAM, IPPROTO_UDP );
                 this->s6 = socket( AF_INET6, SOCK_DGRAM, IPPROTO_UDP );
 
@@ -118,6 +120,48 @@ namespace dracoterram
 
                 }
 
+            }
+
+        //returns id
+            uint32_t client::getId( void )
+            {
+                return this->id;
+            }
+
+        //returns id key
+            uint8_t client::getIdKey( void )
+            {
+                return this->idkey;
+            }
+
+        //returns ping
+            uint32_t client::getPing( void )
+            {
+                return this->ping;
+            }
+
+        //sets ping
+            void client::setPing( uint32_t p )
+            {
+                this->ping = p;
+            }
+
+        //returns last ping time
+            uint64_t client::getPingTime( void )
+            {
+                return this->lastPing;
+            }
+
+        //sets last ping time
+            void client::setPingTime( uint64_t t )
+            {
+                this->lastPing = t;
+            }
+
+        //returns true if connected
+            bool client::isConnected( void )
+            {
+                return 0;
             }
 
 };
